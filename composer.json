@@ -1,0 +1,24 @@
+{
+    "name": "cable/cable-redis-driver",
+    "description": "Redis support for cable caching",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "\\Cable\\Caching\\Redis\\": "src/Cable/Caching"
+        }
+    },
+    "authors": [
+        {
+            "name": "vahit",
+            "email": "vahit.serif119@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "cable/cable-caching": "1.0.*"
+    },
+    "require": {
+        "predis/predis": "^1.1"
+    }
+}
